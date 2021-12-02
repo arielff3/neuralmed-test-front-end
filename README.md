@@ -5,7 +5,6 @@
 <p align="center">
   <a href="#computer-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#bookmark_tabs-pre_requisitos">Pré requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="https://neuralmed-ariel-franco.netlify.app/">Demo</a>&nbsp;&nbsp;&nbsp;
 </p>
@@ -28,6 +27,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 #### Front-end
 - [ReactJS](https://github.com/facebook/react)
+- [Cornerstone](https://github.com/cornerstonejs/cornerstone)
 - [TypeScript](https://github.com/microsoft/TypeScript)
 - [styled-components](https://github.com/styled-components/styled-components)
 - [ESLint](https://github.com/eslint/eslint)

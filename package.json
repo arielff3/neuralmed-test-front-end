@@ -9,8 +9,7 @@
     "build:server": "docker-compose build & docker run --name $npm_package_name -p 80:80 -d $npm_package_name\\_nginx",
     "test": "jest",
     "test:coverage": "jest --coverage --watchAll=false",
-    "test:watch": "jest --watch",
-    "prepare": "husky install"
+    "test:watch": "jest --watch"
   },
   "dependencies": {
     "cornerstone-core": "^2.6.1",
@@ -68,7 +67,6 @@
     "eslint-plugin-react": "^7.26.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "html-webpack-plugin": "^5.3.2",
-    "husky": "^7.0.2",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.2.4",
     "jest-styled-components": "^7.0.5",

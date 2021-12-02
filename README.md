@@ -7,11 +7,12 @@
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bookmark_tabs-pre_requisitos">Pré requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://mavel-heroes-objective.netlify.app">Demo</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://neuralmed-ariel-franco.netlify.app/">Demo</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-red" alt="shield" />
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/4f5437c3-d426-46a1-b04f-747744240612/deploy-status)](https://app.netlify.com/sites/neuralmed-ariel-franco/deploys)
 </p>
 
 <br/>

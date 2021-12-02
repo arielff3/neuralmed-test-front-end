@@ -4,8 +4,8 @@
   "main": "src/index.tsx",
   "license": "MIT",
   "scripts": {
-    "start": "NODE_ENV=development webpack serve --mode development --open --config webpack.ts",
-    "build": "NODE_ENV=production webpack --mode production --config webpack.ts",
+    "start": "webpack serve --mode development --open --config webpack.ts",
+    "build": "webpack --mode production --config webpack.ts",
     "build:server": "docker-compose build & docker run --name $npm_package_name -p 80:80 -d $npm_package_name\\_nginx",
     "test": "jest",
     "test:coverage": "jest --coverage --watchAll=false",

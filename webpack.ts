@@ -7,7 +7,7 @@ const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 const htmlPlugin = new HtmlWebpackPlugin({
-  favicon: path.resolve(__dirname, 'public', 'favicon.ico'),
+  favicon: path.resolve(__dirname, 'public', 'favicon.png'),
   template: path.resolve(__dirname, 'public', 'index.html'),
 });
 

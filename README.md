@@ -12,7 +12,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-red" alt="shield" />
-  [![Netlify Status](https://api.netlify.com/api/v1/badges/4f5437c3-d426-46a1-b04f-747744240612/deploy-status)](https://app.netlify.com/sites/neuralmed-ariel-franco/deploys)
+  <img src="https://api.netlify.com/api/v1/badges/4f5437c3-d426-46a1-b04f-747744240612/deploy-status" alt="shield" />
 </p>
 
 <br/>

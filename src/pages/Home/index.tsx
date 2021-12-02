@@ -3,7 +3,6 @@ import Header from 'src/components/Header'
 import { Container, Content } from './styles'
 
 export const Home = () => {
-  const absolutPath = new URL(window.location.href).origin.split('//')[1]
   const configCorner = {
     tools: [
       {
@@ -21,11 +20,11 @@ export const Home = () => {
       { name: 'StackScrollMultiTouch', mode: 'active' },
     ],
     imageIds: [
-      `dicomweb://${absolutPath}/assets/1-activationmap_edema.dcm`,
-      `dicomweb://${absolutPath}/assets/1-activationmap_effusion.dcm`,
-      `dicomweb://${absolutPath}/assets/1-activationmap_mass_nodule.dcm`,
-      `dicomweb://${absolutPath}/assets/1-activationmap_opacity.dcm`,
-      `dicomweb://${absolutPath}/assets/1-activationmap_pneumonia.dcm`,
+      `dicomweb://neuralmed.sfo3.digitaloceanspaces.com/1-activationmap_edema.dcm`,
+      `dicomweb://neuralmed.sfo3.digitaloceanspaces.com/1-activationmap_effusion.dcm`,
+      `dicomweb://neuralmed.sfo3.digitaloceanspaces.com/1-activationmap_mass_nodule.dcm`,
+      `dicomweb://neuralmed.sfo3.digitaloceanspaces.com/1-activationmap_opacity.dcm`,
+      `dicomweb://neuralmed.sfo3.digitaloceanspaces.com/1-activationmap_pneumonia.dcm`,
     ],
     imageIdIndex: 0,
   }
